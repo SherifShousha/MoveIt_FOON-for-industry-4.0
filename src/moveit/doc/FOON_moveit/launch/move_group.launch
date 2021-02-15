@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="FOON_moveit" pkg="moveit" type="move_group.py" respawn="false" output="screen">
+  </node>
+
+</launch>
