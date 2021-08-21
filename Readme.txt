@@ -16,7 +16,7 @@ The robot should gather all existing beer bottles from the same kind in its own 
 functions with different input information unique to every object in the processes, which means that all motion nodes in the FOON are consisted of these two manipulation functions, but the
 sequence of this motion, the targeted positions, and orientation are not the same within every manipulation problem.
 
-![My image](https://github.com/SherifShousha/MoveIt_FOON-for-industry-4.0/blob/master/motion.png?raw=true)
+![](/motion.png)
 
 To achieve that, rospy and its build system “catkin” environment were needed. The implementation started in two parallel parts. The MoveIt part and FOON part. 
 The MoveIt part included the robot arm structure, the joints number, and the joints movement limit. Moreover, the MoveIt implementation included the movement planning and needed move function like pick
