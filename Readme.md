@@ -1,9 +1,9 @@
-#Knowledge representation of human centred automated manufacturing processes for Industry 4.0 and beyond
+# Knowledge representation of human centred automated manufacturing processes for Industry 4.0 and beyond
 
 ## Demo video
 https://drive.google.com/file/d/18OtsCAhw5006IOYaI7NiXDFCOsyLYY5K/view?usp=sharing
 
-##Implementation
+## Implementation
 The goal of the implementation was to make the robot acting human-like by using the FOON graph to extract the needed object to achieve a specific goal.
 When the robot received a command, it had to know the input object and its state and it had to plan the motion sequence, which led to the change in the object state to complete the task successfully.
 In our implementation, we created an environment that includes two kinds of beer, “augustiner” beer and “rothaus” beer.
